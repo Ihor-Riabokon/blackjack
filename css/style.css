@@ -1,0 +1,157 @@
+@font-face {
+    font-family: MoonBold;
+    src: url(../fonts/MoonBold.otf);
+}
+
+@font-face {
+    font-family: MoonLight;
+    src: url(../fonts/MoonLight.otf);
+}
+
+html,
+body {
+    background: url(../img/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.hand {
+    font-size: 10em;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.score {
+    text-align: center;
+    min-height: 120px;
+    color: white;
+    font-family: MoonLight;
+}
+
+.buttons {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#outcome {
+    margin-top: 20px;
+    min-height: 20px;
+    font-size: 1.35em;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-family: MoonLight;
+}
+
+.hand-label {
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    font-family: MoonLight;
+}
+
+img {
+    width: 15%;
+}
+
+.value-label {
+    color: white;
+    font-size: 1.35em;
+}
+
+.cbalink {
+    display: none;
+}
+
+.bet p {
+    color: white;
+    font-size: 1.25em;
+}
+
+.chip {
+    display: inline-block;
+    text-align: center;
+}
+
+.chips img {
+    width: 35%;
+    cursor: pointer;
+}
+
+/*.chips img:hover {
+    animation: spin 1s linear;
+}
+*/
+.chips {
+    text-align: center;
+}
+
+.ib {
+    display: inline-block;
+}
+
+.vam {
+    vertical-align: middle;
+}
+
+#clear-bet {
+    padding: 0;
+}
+
+/*@keyframes spin {
+    100% {
+        transform: rotate(1turn);
+    }
+}*/
+
+.popup-wrapper {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px #aaa;
+    overflow: hidden;
+}
+
+.popup-title {
+    padding: 10px 15px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.popup-title h3 {
+    margin: 0;
+    line-height: 1.5em;
+    color: #333;
+}
+
+.popup-body {
+    padding: 10px 15px;
+    color: #555;
+}
+
+.popup-close {
+    float: right;
+    margin-top: 2px;
+    padding: 0;
+    font-size: 24px;
+    line-height: 1;
+    border: 0;
+    background: transparent;
+    color: #aaa;
+    cursor: pointer;
+}
+
+.popup-close:hover {
+    color: #333;
+}
+
+.dn {
+    display: none;
+}
+
+.popup-body {
+    margin-top: 20px;
+    text-align: center;
+}
